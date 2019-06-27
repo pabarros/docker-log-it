@@ -9,7 +9,7 @@ This image will print a given message every 1s.
 
 ## How to run
 ```sh
-docker run log-it -e MESSAGE='{ "message": "my log message", "status_nro": 123 }'
+docker run abekroenem/log-it -e MESSAGE='{ "message": "my log message", "status_nro": 123 }'
 ```
 
 ### Output
